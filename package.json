@@ -4,7 +4,8 @@
   "description": "Automation testing of My Task App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webdriverManager": "webdriver-manager start",
+    "test": "protractor conf.js"
   },
   "author": "Vaibhav Paroha",
   "license": "ISC",
